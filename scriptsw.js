@@ -17,7 +17,7 @@
     if ('present' in params) {
         document.querySelector('#tutor-avatar').remove();
         document.querySelector('#tutor-talk').style.width = '800px';
-        document.querySelector('#tutor').style.height = '156px';
+        document.querySelector('#tutor').style.height = '96px';
     }
 
     function cy(a) {
@@ -14000,7 +14000,7 @@ if (typeof exports === "object" && exports) {
     exports.JSHINT = JSHINT
 }
 var lessons = [{
-    message: "Hi, I'm Green Fox! (click on my words to see what's next)",
+    message: "Hi, I'm Marvin! (click on my words to see what's next)",
     code: "c.fillRect(20, 20, 50, 75);\n",
     lessonSection: "Getting Started",
     tutorImage: 1,
